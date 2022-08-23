@@ -23,7 +23,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
-        await message.reply_text("Hi! My name is kanishka")
+        await message.reply_text("Hi! My name is Shikha")
 
 
 @bot.on_message(
